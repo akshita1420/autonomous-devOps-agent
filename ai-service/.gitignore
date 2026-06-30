@@ -1,0 +1,15 @@
+# Ignore the secret keys inside the python service
+ai-service/.env
+
+# Ignore the virtual environment library folder
+ai-service/venv/
+
+# Ignore Python cache files
+ai-service/__pycache__/
+ai-service/*.pyc
+
+# Ignore future Java build artifacts (prepping for Step 6!)
+devops-orchestrator/target/
+devops-orchestrator/.mvn/
+devops-orchestrator/.idea/
+*.class
