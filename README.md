@@ -1,0 +1,1 @@
+When a workflow fails, the agent instantly isolates the raw build logs, queries an internal vector database for historical context, and uses an LLM to generate code resolutions. High-confidence fixes are pushed automatically as GitHub Pull Requests, while risky or low-confidence resolutions are routed to a live browser dashboard and a Slack approval gate for human verification.
